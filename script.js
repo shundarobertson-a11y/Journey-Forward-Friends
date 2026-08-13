@@ -1,6 +1,6 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
-const SUPABASE_URL = 'https://shfgolhxofitcggvpfli.supabase.co/rest/v1/';
+const SUPABASE_URL = 'https://shfgolhxofitcggvpfli.supabase.co';
 const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_iQZBs9LJoMpNSJZkfW7KDQ_xk95z6gx';
 
 document.getElementById('waitlist-form').addEventListener('submit', async function (event) {
